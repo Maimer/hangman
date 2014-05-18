@@ -64,8 +64,8 @@ while player_word != hidden
           puts "You're out of chances, better luck next time..."
         end
       end
+      guessed_letters << guess
     end
-    guessed_letters << guess
   end
 end
 
